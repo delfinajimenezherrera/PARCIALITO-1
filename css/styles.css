@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+.Container{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color:rgba(162, 113, 207, 0.691) ;
+    height:650px ;
+
+}
+.item{
+    display: flex;
+   align-items: center;
+    background-color:rgba(122, 230, 194, 0.787) ;
+    padding: 15px;
+    margin: 15px;
+   display:block;
+   width: 150px;
+   flex-wrap: nowrap;
+   justify-content: space-around  
+}
+img{
+    height: 100px;
+}
+div{
+    display: block;
+}
+.shrek{
+    flex-wrap: nowrap;
+    order: 5;
+    align-self: center;
+}
+.burro{
+    flex-wrap: nowrap;
+    order: 3;
+    align-self: center;
+}
+.pinocho{
+    align-self: flex-start;
+    order: 4;
+}
+.gatoconbotas{
+    align-self: flex-end;
+    order: 2;
+
+}
+.fiona{
+    flex-wrap: nowrap;
+    order: 0 ;
+    align-self: flex-start;
+    height: 600px;
+}
